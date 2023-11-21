@@ -1,0 +1,30 @@
+{
+  "name": "mood",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "postinstall": "prisma generate"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^4.27.1",
+    "@prisma/client": "^5.6.0",
+    "langchain": "^0.0.187",
+    "next": "14.0.2",
+    "react": "^18",
+    "react-autosave": "^0.4.3",
+    "react-dom": "^18",
+    "recharts": "^2.9.3",
+    "swr": "^2.2.4",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.1",
+    "postcss": "^8",
+    "prisma": "^5.6.0",
+    "tailwindcss": "^3.3.0"
+  }
+}
